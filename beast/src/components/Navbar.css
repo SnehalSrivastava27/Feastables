@@ -1,3 +1,6 @@
+svg {
+    mix-blend-mode: multiply;
+}
 .navbar{
     background-color: #73e3ff;
     display: flex;
@@ -27,7 +30,7 @@
     border: transparent;
 }
 .icons{
-    padding-right: 10px;
+    padding-right: 50px;
 }
 .icons ul{
     list-style: none;
@@ -39,3 +42,18 @@
     cursor: pointer;
     font-weight: 800;
 }
+.icons li button
+{   
+    border-radius: 9999px;
+     background-color: transparent;
+    border: transparent; 
+}
+.icons li button img{
+    height: 30px;
+    width: 43px;
+    border-radius: 9999px;
+    /* object-fit: cover; */
+}
+/* .icons li button:hover img{
+    filter: drop-shadow(2px 2px 0 #000000);
+} */

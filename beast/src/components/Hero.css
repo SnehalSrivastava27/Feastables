@@ -1,0 +1,10 @@
+.main{
+    padding-left: 28px;
+    padding-top: 36px;
+}
+.main img {
+    border: 2px solid black;
+    border-radius: 10px ;
+    height: 600px;
+    width: 1248px;
+}
